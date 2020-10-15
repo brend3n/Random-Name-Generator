@@ -22,16 +22,16 @@ def randomName():
 
 
 
-	f = open("last_name_old.txt", "r")
-	f2 = open("last_name.txt", "wt")
+#	f = open("last_name_old.txt", "r")
+#	f2 = open("last_name.txt", "wt")
 
-	for line in f:
-		s = line.lower()
-		s = s.capitalize()
-		f2.write(s)
+#	for line in f:
+#		s = line.lower()
+#		s = s.capitalize()
+#		f2.write(s)
 
-	f.close()
-	f2.close()
+#	f.close()
+#	f2.close()
 
 	f = open("last_name.txt", "r")
 	i = 1
