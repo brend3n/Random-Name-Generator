@@ -1,9 +1,15 @@
-## Random-Name-Generator
+### Random-Name-Generator
 
-### Create a random name
+## There are two scripts in this repo:
+  * Generate random names with
+  ```python
+      python3 random_name.py  
+  ```
+  * Search for a name in the files with
+  ```python
+     python3 search_for_name.py {first name} {last name}
+  ```
 
-### Clone or Fork this repo with all of the files
-### Run the script and a new random name will be generator every 0.5 seconds.
 
 
 ## Thank you
