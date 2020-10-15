@@ -43,11 +43,11 @@ def randomName():
 	    i = i + 1
 
 	f.close()
-	first_name = first_name.replace('\n', ' ')
+	first_name = first_name.replace('\n', '')
 
-	last_name = last_name.replace('\n', ' ')
+	last_name = last_name.replace('\n', '')
 
-	print(first_name  + last_name)
+	print(first_name  + " " +last_name)
 
 
 
