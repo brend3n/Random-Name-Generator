@@ -9,7 +9,7 @@ def randomName():
 	# print(f"ran_first: {ran_first} rand_last: {ran_last}")
 
 	f = open("first_name.txt", "r")
-	i = 1;
+	i = 1
 
 	for x in f:
 	    if i == ran_first:
@@ -45,7 +45,7 @@ def random_first_name():
 	ran_first = random.randint(1, 18239)
 
 	f = open("./Random-Name-Generator/first_name.txt", "r")
-	i = 1;
+	i = 1
 
 	for x in f:
 	    if i == ran_first :
@@ -99,9 +99,9 @@ def random_name_updated(path=""):
     last_name = random.choice(last_names).replace("\n", "")
     
     name = f"{first_name} {last_name}"
+    print(f"Name: {name}")
     return name
 	
-
 def random_first_name_updated(path=""):
     first_names = []
     first_name_file_path = f"{path}first_name.txt"
