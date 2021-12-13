@@ -102,7 +102,7 @@ def random_name_updated(path=""):
     return name
 	
 
-def random_first_name_updated(path):
+def random_first_name_updated(path=""):
     first_names = []
     first_name_file_path = f"{path}first_name.txt"
     with (open(first_name_file_path, "r")) as f:
